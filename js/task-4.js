@@ -7,6 +7,7 @@ function onLoginFormSubmit(event) {
   const password = event.target.elements.password.value.trim();
   if (email === '' || password === '') {
     alert('All form fields must be filled in');
+    return;
   }
   const userInfo = {
     email: `${email}`,
