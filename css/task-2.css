@@ -1,0 +1,21 @@
+img {
+  display: block;
+}
+ul {
+  text-decoration: none;
+}
+li {
+  list-style: none;
+}
+.gallery {
+  display: flex;
+  width: 1440px;
+  margin: 100px auto;
+  justify-content: center;
+  align-items: baseline;
+  column-gap: 24px;
+  row-gap: 48px;
+  flex-wrap: wrap;
+  background: #fff;
+}
+0
