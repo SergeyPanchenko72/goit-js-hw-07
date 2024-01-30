@@ -41,3 +41,8 @@ function onButtonDestroyClick() {
 buttonCreate.addEventListener('click', onButtonCreateClick);
 
 buttonDestroy.addEventListener('click', onButtonDestroyClick);
+
+boxesAdd.addEventListener('click', onBoxesAddLisnerClick);
+function onBoxesAddLisnerClick(event) {
+  event.target.style.borderRadius = '50%';
+}
